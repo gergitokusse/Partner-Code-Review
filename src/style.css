@@ -78,6 +78,10 @@ body {
   text-decoration: underline;
 }
 
+.find {
+  max-width: 100%;
+}
+
 .show {
   display: flex;
 }
