@@ -98,7 +98,7 @@ Clone this repository to your desired folder:
 
 # 🎯 Live link <a name="future-features"></a>
 
-[Click here](https://gergitokusse.github.io/Partner-Code-Review/dist)
+[Click here](https://gergitokusse.github.io/Partner-Code-Review/dist/)
 
 <!-- FUTURE FEATURES -->
 
