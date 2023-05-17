@@ -1,14 +1,6 @@
 import Interactive from './Interactiv.js';
 
 class Storage {
-  static update() {
-    let mylocaldata = JSON.parse(localStorage.getItem('toDoList'));
-    if (mylocaldata == null) {
-      mylocaldata = [];
-    }
-    localStorage.setItem('toDoList', JSON.stringify(mylocaldata));
-  }
-
   static displaytodo() {
     const todo = document.querySelector('.todo-list');
     let mylocaldata = JSON.parse(localStorage.getItem('toDoList'));
@@ -98,7 +90,6 @@ class Storage {
 
   static Edittodo(editval, indexeval, i) {
     const mylocaldata = JSON.parse(localStorage.getItem('toDoList'));
-    // const objIndex = mylocaldata.findIndex(((obj) => obj.indexe === indexeval));
 
     mylocaldata[i].discribtion = editval;
     localStorage.setItem('toDoList', JSON.stringify(mylocaldata));
