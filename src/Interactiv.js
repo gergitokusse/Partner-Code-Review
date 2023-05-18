@@ -16,7 +16,6 @@ class Interactive {
       const span2 = document.getElementById(`span2${item}`);
       span2.style.textDecoration = 'line-through';
 
-      // get local strorage
       const localdata = JSON.parse(localStorage.getItem('toDoList'));
       localdata[item].complete = true;
       localStorage.setItem('toDoList', JSON.stringify(localdata));
@@ -24,7 +23,6 @@ class Interactive {
       const span2 = document.getElementById(`span2${item}`);
       span2.style.textDecoration = 'none';
 
-      // get local strorage
       const localdata = JSON.parse(localStorage.getItem('toDoList'));
       localdata[item].complete = false;
       localStorage.setItem('toDoList', JSON.stringify(localdata));

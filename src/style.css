@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5px;
 }
 
 .todo-container {
@@ -76,6 +77,10 @@ body {
 
 .todo-container div .clear-all-completed span:hover {
   text-decoration: underline;
+}
+
+.find {
+  max-width: 100%;
 }
 
 .show {

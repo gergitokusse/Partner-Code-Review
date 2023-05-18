@@ -94,6 +94,11 @@ Clone this repository to your desired folder:
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- live linek-->
+
+# 🎯 Live link <a name="future-features"></a>
+
+[Click here](https://gergitokusse.github.io/Partner-Code-Review/dist/)
 
 <!-- FUTURE FEATURES -->
 

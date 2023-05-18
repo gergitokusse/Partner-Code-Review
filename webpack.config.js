@@ -3,22 +3,22 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
   entry: './src/index.js',
   devServer: {
     static: './dist',
   },
   plugins: [
     new HtmlWebpackPlugin({
+      title: 'To Do List',
+      filename: 'index.html',
       template: './src/index.html',
     }),
   ],
   output: {
-    filename: '[name].[hash:8].js',
-    sourceMapFilename: '[name].[hash:8].map',
-    chunkFilename: '[id].[hash:8].js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
-    publicPath: '/',
+
   },
   module: {
     rules: [
@@ -31,5 +31,4 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
-  mode: 'development',
 };
